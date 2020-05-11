@@ -41,7 +41,14 @@ waypoints = [
 # Note: It's okay to access the dictionary using bracket notation on the
 # waypoints list.
 
+
 # YOUR CODE HERE
 
+waypoints[0]['lon'] = -130
+waypoints[0]['name'] = "not a real place"
+
+print(waypoints[0])
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
+
+for val in waypoints:    print(val.values())
